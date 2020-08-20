@@ -1,0 +1,9 @@
+server:
+  port: 8084
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+
+logging:
+  config: classpath:log4j2-spring.xml
